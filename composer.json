@@ -21,8 +21,8 @@
 		"source":"https://github.com/cliffparnitzky/FormFieldAccessProtection"
 	},
 	"require":{
-		"php":">=7.3",
-		"contao/core-bundle":">=4.9"
+		"php":">=7.3, ^8.0",
+		"contao/core-bundle":">=4.9, ^5.0"
 	},
 	"extra": {
 		"contao-manager-plugin": "Philvdb\\FormFieldAccessProtectionBundle\\ContaoManager\\Plugin"

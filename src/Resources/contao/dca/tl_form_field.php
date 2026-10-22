@@ -26,7 +26,7 @@ $GLOBALS['TL_DCA']['tl_form_field']['fields']['protected'] =
 	'filter'                  => true,
 	'inputType'               => 'checkbox',
 	'eval'                    => ['submitOnChange'=>true],
-	'sql'                     => "char(1) NOT NULL default ''"
+	'sql'                     => ['type' => 'boolean', 'default' => false]
     ];
 $GLOBALS['TL_DCA']['tl_form_field']['fields']['groups'] =
     [
@@ -43,5 +43,5 @@ $GLOBALS['TL_DCA']['tl_form_field']['fields']['guests'] =
 	'exclude'                 => true,
 	'filter'                  => true,
 	'inputType'               => 'checkbox',
-	'sql'                     => "char(1) NOT NULL default ''"
+	'sql'                     => ['type' => 'boolean', 'default' => false]
     ];
